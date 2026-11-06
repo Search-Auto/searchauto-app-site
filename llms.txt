@@ -1,0 +1,26 @@
+# Search Auto
+
+> Search Auto offers tools to help customers find parts on your site, help your team manage your catalog, and marketing services to drive better traffic.
+
+Search Auto is an automotive aftermarket eCommerce agency and software company. It builds and runs tools for auto parts and accessories retailers on Shopify, BigCommerce and Magento: a fitment lookup app (Year/Make/Model search), a PIM for catalog and ACES/PIES fitment data, platform migrations, integrations, and digital marketing.
+
+## Pages
+
+- [Search Auto - The Team, The History, The About Us Page](https://searchauto.app/about): Our team is comprised of strategists, visionaries, marketers, designers and developers that all love eCommerce and the automotive industry.
+- [Search Auto Portfolio & Recent Projects](https://searchauto.app/portfolio): Check out some of the amazing projects we've had the opportunity to work on!
+- [Automotive Parts Website Migrations - eCommerce Sites by Search Auto](https://searchauto.app/site-migrations): Take the guesswork out of migrating. We've moved dozens of automotive retailers to Shopify, BigCommerce and Mangeot with fitment data intact, SEO preserved, no surprise downtime.
+- [Automotive MMY Lookup & Product Fitment Validation](https://searchauto.app/fitment-lookup-app): A fitment lookup that features everything you need to succeed, & is backed by automotive aftermarket entrepreneurs with over 20 years experience.
+- [Custom Development & Apps for Automotive eCommerce](https://searchauto.app/custom-development): Tailored eCommerce solutions built for the automotive industry. From custom apps to frontend functionality, we build tools to set your site apart.
+- [Automotive Aftermarket eCommerce Marketing](https://searchauto.app/marketing): 22 years running automotive eCommerce brands. We know why aftermarket shoppers bounce and how to get them to check out instead.
+- [Increase Leads & Customer Communication](https://searchauto.app/crm): Help improve conversion rates, customer response times and local job bookings using a combined communication portal that's easy for your team!
+- [SearchAuto PIM — Product Information Management for Auto Parts](https://searchauto.app/pim): The PIM built for how auto parts actually sell. Vehicle fitment, Shopify sync, product customization, and multi-store tenancy — in one platform.
+- [Data & Backend Integrations](https://searchauto.app/integrations): Pre-built connectors and custom integrations for auto parts retailers. Connect your ERP, commerce platform, warehouse distributors, and more.
+- [Partner Program — SearchAuto](https://searchauto.app/partners): A selective partner program for automotive parts and accessories brands serious about scaling ecommerce.
+- [Tech Stack Planning for Automotive eCommerce](https://searchauto.app/tech-stack-planning): Stack audits and greenfield architecture planning for auto parts retailers. We map your systems, identify gaps, and give you a clear roadmap before you build anything.
+- [Automotive Ecommerce FAQs](https://searchauto.app/faqs): Straight answers to the questions we hear most from automotive parts and accessories retailers - fitment data, ad attribution, ERP integrations, Google Shopping, and more.
+- [Trailer & Equipment Dealer Websites](https://searchauto.app/dealerships): High-performance eCommerce websites for trailer and equipment dealerships. Real-time inventory sync, lead generation, financing tools, and SEO-ready architecture built for modern dealers.
+
+## Optional
+
+- [Privacy Policy](https://searchauto.app/privacy): Learn how Search Auto protects your personal information and data privacy.
+- [Terms & Conditions](https://searchauto.app/terms): Terms and conditions for using Search Auto's services and applications.
