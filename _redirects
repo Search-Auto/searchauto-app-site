@@ -1,0 +1,5 @@
+# legacy URL still indexed by Google — /about-us was the old path
+/about-us     /about        301
+/about-us/    /about        301
+
+# Anything else gets a real 404 with the branded page in 404.html.
