@@ -242,7 +242,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
       </div>
       <p class="shp-checks"><span>Sold auto parts as merchants since 2004</span><span>Ran our own parts brands first</span></p>
     </div>
-    <img src="/assets/hero-bronco.jpg" alt="Red Bronco with a Bodyguard windshield banner">
+    <img src="/assets/f250-bds-5in.jpg" alt="Red lifted Ford Super Duty F-250, a Truxx build">
   </div>
 </section>
 <section class="shp-section">
