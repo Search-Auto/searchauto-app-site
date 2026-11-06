@@ -23,6 +23,8 @@ Search Auto is an automotive aftermarket eCommerce company run by merchants. Stu
 - [Shopify Case Studies](https://searchauto.app/case-studies): Published Shopify results for automotive aftermarket retailers.
 - [Rudy's Performance Parts](https://searchauto.app/case-studies/rudys-performance-parts): After moving to Shopify, +579% year-over-year revenue and +68% mobile conversion rate.
 
+- [Shopify for Automotive Parts](https://searchauto.app/shopify): Why Search Auto builds parts stores on Shopify, and how to start a migration or a growth conversation.
+
 ## Optional
 
 - [Privacy Policy](https://searchauto.app/privacy): Learn how Search Auto protects your personal information and data privacy.
