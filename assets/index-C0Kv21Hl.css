@@ -117,8 +117,8 @@
 .proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .proof-card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:22px 24px 20px;color:inherit;display:flex;flex-direction:column}
 .proof-feature{background:#0b1220;border-color:#22d3ee}
-.proof-top{display:flex;align-items:center;gap:12px}
-.proof-logo{display:block;width:120px;height:40px;object-fit:contain;object-position:left center;background:#000;border-radius:6px;flex:none}
+.proof-logo{display:block;height:52px;width:auto;max-width:100%;object-fit:contain;object-position:left center;margin:0 0 12px}
+.proof-feature .proof-logo{height:58px}
 .proof-card h3{margin:0;font-size:16px;font-weight:700}
 .proof-nums{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
 .proof-nums b{display:block;font-size:clamp(40px,4vw,56px);line-height:.9;letter-spacing:-.045em;font-weight:800}
@@ -132,7 +132,7 @@
 .proof-secondary{border:1px solid #64748b;color:#e2e8f0;background:transparent}
 .cs{padding:108px 0 80px;background:#fff;color:#0f172a}
 .cs-ident{display:flex;align-items:center;gap:16px;margin-bottom:28px}
-.cs-logo{height:52px;width:auto;max-width:160px;object-fit:contain;object-position:left center;background:#000;border-radius:8px;padding:6px 8px;margin:0;flex:none}
+.cs-logo{height:56px;width:auto;max-width:260px;object-fit:contain;object-position:left center;margin:0;flex:none}
 .cs-eye{color:#0891b2;margin:0 0 4px}
 .cs h1{font-size:clamp(28px,3vw,40px);line-height:1.1;margin:0;font-weight:800;letter-spacing:-.03em}
 .cs-metrics{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -152,6 +152,7 @@
 .cs-other h2{margin:0 0 16px}
 .cs-three{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .cs-mini{background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:20px}
+.cs-mini .proof-logo{height:36px;margin:0 0 12px}
 .cs-mini h3{margin:0 0 14px;font-size:16px;font-weight:700}
 .cs-mini-nums{display:grid;gap:14px}
 .cs-mini b{display:block;font-size:32px;line-height:.95;letter-spacing:-.04em;font-weight:800;color:#0f172a}
