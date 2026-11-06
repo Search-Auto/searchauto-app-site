@@ -234,8 +234,8 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   <div class="shp-wrap shp-hero-grid">
     <div>
       <p class="shp-eye">Shopify for automotive parts</p>
-      <h1>We've fallen in love with Shopify.</h1>
-      <p class="shp-lede">For parts and automotive ecommerce, it is the most efficient way to manage the store and grow it. Fitment and custom options are not built in. Most agencies do not know the industry well enough to add them. We do.</p>
+      <h1>Why Shopify is perfect for auto parts.</h1>
+      <p class="shp-lede">It is perfect when Search Auto tools improve the shopping experience and how the catalog and store are managed: fitment filtering and validation, managing or automating data updates, core charges, large catalogs, kits and bundles, and SEO.</p>
       <div class="shp-actions">
         <a class="shp-btn" href="#contact">Talk about your brand</a>
         <a class="shp-btn shp-ghost" href="/site-migrations">Free Shopify migration audit</a>
@@ -495,7 +495,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     <div>
       <div class="mig-eyebrow">Shopify for automotive parts</div>
       <h1>Build it on Shopify.<br><em>Never migrate again.</em></h1>
-      <p>We've fallen in love with Shopify for parts and accessories. Fitment, catalog data, cores, kits, and SEO don't come with the platform. We already built those pieces, so your store can grow without another replatform.</p>
+      <p>Shopify is perfect for parts and accessories when Search Auto tools improve the shopping experience and day-to-day management. Fitment, catalog data, cores, kits, and SEO don't come with the platform. We already built those pieces, so your store can grow without another replatform.</p>
       <div class="mig-hero-actions">
         <a class="mig-btn mig-orange" href="#contact">Get a free Shopify migration audit</a>
         <a class="mig-btn mig-secondary" href="#why">See why teams move</a>
