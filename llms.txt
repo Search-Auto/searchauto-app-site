@@ -1,14 +1,14 @@
 # Search Auto
 
-> Search Auto offers tools to help customers find parts on your site, help your team manage your catalog, and marketing services to drive better traffic.
+> Operators since 2004 who have sold auto parts, not a typical agency. Shopify fitment, PIM, migrations, and managed marketing for automotive aftermarket retailers.
 
-Search Auto is an automotive aftermarket eCommerce agency and software company. It builds and runs tools for auto parts and accessories retailers on Shopify, BigCommerce and Magento: a fitment lookup app (Year/Make/Model search), a PIM for catalog and ACES/PIES fitment data, platform migrations, integrations, and digital marketing.
+Search Auto is an automotive aftermarket eCommerce company run by merchants. Stuart and Joey started working together in 2009 and grew a running-board and tonneau-cover business to $250M that became part of RealTruck through its acquisition by Truck Hero in 2015. Brands include Ionic Automotive, Gator Covers, and Havoc Offroad. It builds and runs tools for auto parts and accessories retailers on Shopify: a fitment lookup app (Year/Make/Model search), a PIM for catalog and ACES/PIES fitment data, platform migrations, integrations, and digital marketing.
 
 ## Pages
 
 - [Search Auto - The Team, The History, The About Us Page](https://searchauto.app/about): Our team is comprised of strategists, visionaries, marketers, designers and developers that all love eCommerce and the automotive industry.
 - [Search Auto Portfolio & Recent Projects](https://searchauto.app/portfolio): Check out some of the amazing projects we've had the opportunity to work on!
-- [Automotive Parts Website Migrations - eCommerce Sites by Search Auto](https://searchauto.app/site-migrations): Take the guesswork out of migrating. We've moved dozens of automotive retailers to Shopify, BigCommerce and Mangeot with fitment data intact, SEO preserved, no surprise downtime.
+- [Automotive Parts Website Migrations - eCommerce Sites by Search Auto](https://searchauto.app/site-migrations): Move your automotive parts store to Shopify without losing rankings, fitment, or customers. Search Auto handles catalog data, SEO, integrations, and launch.
 - [Automotive MMY Lookup & Product Fitment Validation](https://searchauto.app/fitment-lookup-app): A fitment lookup that features everything you need to succeed, & is backed by automotive aftermarket entrepreneurs with over 20 years experience.
 - [Custom Development & Apps for Automotive eCommerce](https://searchauto.app/custom-development): Tailored eCommerce solutions built for the automotive industry. From custom apps to frontend functionality, we build tools to set your site apart.
 - [Automotive Aftermarket eCommerce Marketing](https://searchauto.app/marketing): 22 years running automotive eCommerce brands. We know why aftermarket shoppers bounce and how to get them to check out instead.

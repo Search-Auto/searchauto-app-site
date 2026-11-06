@@ -1,2 +1,17 @@
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+
+# Empty construction pages. Redirects in _redirects are the primary control.
+# These headers noindex the response if a file is still served.
+/blog
+  X-Robots-Tag: noindex, nofollow
+/blog/
+  X-Robots-Tag: noindex, nofollow
+/blog.html
+  X-Robots-Tag: noindex, nofollow
+/case-studies
+  X-Robots-Tag: noindex, nofollow
+/case-studies/
+  X-Robots-Tag: noindex, nofollow
+/case-studies.html
+  X-Robots-Tag: noindex, nofollow
