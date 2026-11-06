@@ -125,6 +125,24 @@
 .proof-feature .proof-nums b{color:#67e8f9}
 .proof-nums span{display:block;margin-top:8px;color:#94a3b8;font-size:13px;line-height:1.3;font-weight:600}
 .proof-card > p{margin:12px 0 0;color:#cbd5e1;font-size:14px}
+.proof-note{margin:10px 0 0;color:#94a3b8;font-size:13px;line-height:1.4}
+.proof-more{margin-top:28px}
+.proof-more h3{margin:0 0 14px;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#94a3b8}
+.proof-more-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.proof-more-card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:18px}
+.proof-more-card h4{margin:0 0 10px;font-size:15px;font-weight:700}
+.proof-more-card ul{margin:0;padding:0;list-style:none}
+.proof-more-card li{margin:0 0 8px;color:#e2e8f0;font-size:14px;line-height:1.35}
+.proof-more-card b{display:inline-block;min-width:4.6rem;font-size:20px;letter-spacing:-.03em}
+.cs-extra{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px}
+.cs-extra div{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:12px 14px}
+.cs-extra b{display:block;font-size:22px;letter-spacing:-.03em;line-height:1}
+.cs-extra span{display:block;margin-top:6px;font-size:12px;line-height:1.3;color:#64748b;font-weight:600}
+.cs .proof-more{margin-top:48px}
+.cs .proof-more h3{color:#64748b}
+.cs .proof-more-card{background:#f8fafc;border-color:#e2e8f0}
+.cs .proof-more-card h4,.cs .proof-more-card b{color:#0f172a}
+.cs .proof-more-card li{color:#334155}
 .proof-link{display:inline-block;margin-top:14px;color:#67e8f9;font-weight:700;font-size:14px}
 .proof-actions,.cs-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
 .proof-actions a,.cs-btn{display:inline-flex;align-items:center;padding:14px 18px;border-radius:8px;font-weight:700;text-decoration:none}
@@ -167,6 +185,7 @@
 .cs-index-head h1{font-size:clamp(32px,4vw,46px)}
 .cs .proof-head .cs-lead{color:#64748b;font-size:15px;line-height:1.55;margin:0}
 .mig-result a{color:#ef6c32;font-weight:700;font-size:13px;display:inline-block;margin-top:12px}
-@media(max-width:800px){
-  .proof-head,.proof-grid,.cs-metrics,.cs-story,.cs-three{grid-template-columns:1fr}
+@media(max-width:900px){
+  .proof-head,.proof-grid,.cs-metrics,.cs-story,.cs-three,.proof-more-grid{grid-template-columns:1fr}
+  .cs-extra{grid-template-columns:1fr 1fr}
 }
