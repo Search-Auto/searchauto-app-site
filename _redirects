@@ -2,16 +2,11 @@
 /about-us     /about        301
 /about-us/    /about        301
 
-# /blog and /case-studies are empty "under construction" pages.
-# Force the redirect so the HTML files are not served or indexed.
-# ! overrides the existing blog.html and case-studies.html files.
+# /blog is still an empty construction page.
+# Force the redirect so blog.html is not served or indexed.
 /blog.html            /             301!
 /blog                 /             301!
 /blog/                /             301!
 /blog/*               /             301!
-/case-studies.html    /portfolio    301!
-/case-studies         /portfolio    301!
-/case-studies/        /portfolio    301!
-/case-studies/*       /portfolio    301!
 
 # Anything else gets a real 404 with the branded page in 404.html.

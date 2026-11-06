@@ -20,6 +20,9 @@ Search Auto is an automotive aftermarket eCommerce company run by merchants. Stu
 - [Automotive Ecommerce FAQs](https://searchauto.app/faqs): Straight answers to the questions we hear most from automotive parts and accessories retailers - fitment data, ad attribution, ERP integrations, Google Shopping, and more.
 - [Trailer & Equipment Dealer Websites](https://searchauto.app/dealerships): High-performance eCommerce websites for trailer and equipment dealerships. Real-time inventory sync, lead generation, financing tools, and SEO-ready architecture built for modern dealers.
 
+- [Shopify Case Studies](https://searchauto.app/case-studies): Published Shopify results for automotive aftermarket retailers.
+- [Rudy's Performance Parts](https://searchauto.app/case-studies/rudys-performance-parts): After moving to Shopify, +579% year-over-year revenue and +68% mobile conversion rate.
+
 ## Optional
 
 - [Privacy Policy](https://searchauto.app/privacy): Learn how Search Auto protects your personal information and data privacy.
