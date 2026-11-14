@@ -2,6 +2,11 @@
 /about-us     /about        301
 /about-us/    /about        301
 
+# migrations page replaced by the Shopify page (forced: site-migrations.html still exists)
+/site-migrations       /shopify-auto-parts  301!
+/site-migrations/      /shopify-auto-parts  301!
+/site-migrations.html  /shopify-auto-parts  301!
+
 # short URL for the Shopify page
 /shopify      /shopify-auto-parts  301
 /shopify/     /shopify-auto-parts  301
