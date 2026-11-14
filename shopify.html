@@ -60,6 +60,9 @@ details[open] .plus{transform:rotate(45deg)}
 .plus{transition:transform .2s}
 input,select,textarea{box-sizing:border-box}
 .cmp{grid-template-columns:1.1fr 1fr 1fr}
+.results-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1100px){.results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.results-grid{grid-template-columns:1fr}}
 .hero-checks svg{flex-shrink:0}
 @media (max-width:600px){.hero-checks{grid-template-columns:1fr !important}}
 @media (max-width:900px){.hero-shade{background:linear-gradient(180deg,rgba(15,23,42,0.9) 0%,rgba(15,23,42,0.72) 100%) !important}.band-div{display:none}.band-copy{text-align:center}}
@@ -374,7 +377,7 @@ input,select,textarea{box-sizing:border-box}
         </div>
         <a href="/portfolio" style="display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; font-size: 16px; text-decoration: none">See our portfolio</a>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+      <div class="results-grid" style="display: grid; gap: 20px">
         <article style="border: 1px solid #E2E8F0; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; background: #FFFFFF; box-shadow: 0 10px 30px rgba(15,23,42,0.06)">
           <div style="height: 150px; background: #F8FAFC; border-bottom: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box"><img loading="lazy" src="/assets/shopify/hhr.webp" alt="HHR Performance" style="max-height: 84px; max-width: 220px; width: auto; object-fit: contain"></div>
           <div style="padding: 24px; display: flex; flex-direction: column; gap: 16px; flex: 1">
@@ -382,9 +385,9 @@ input,select,textarea{box-sizing:border-box}
               <p style="margin: 0 0 4px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0E7490">Shopify migration results</p>
               <h3 class="h" style="margin: 0; font-size: 22px; font-weight: 800">HHR Performance</h3>
             </div>
-            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: auto">
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #0E7490">+100%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">Growth in conversion rate</p></div>
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #15803D">+50%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">Organic revenue growth QoQ</p></div>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: auto">
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #0E7490">+100%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">Growth in conversion rate</p></div>
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #15803D">+50%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">Organic revenue growth QoQ</p></div>
             </div>
           </div>
         </article>
@@ -395,9 +398,9 @@ input,select,textarea{box-sizing:border-box}
               <p style="margin: 0 0 4px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0E7490">Annual revenue &amp; conversion</p>
               <h3 class="h" style="margin: 0; font-size: 22px; font-weight: 800">Rudy&#39;s Diesel</h3>
             </div>
-            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: auto">
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #15803D">+579%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">YoY overall revenue growth</p></div>
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #0E7490">+71%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">YoY conversion rate growth</p></div>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: auto">
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #15803D">+579%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">YoY overall revenue growth</p></div>
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #0E7490">+71%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">YoY conversion rate growth</p></div>
             </div>
           </div>
         </article>
@@ -408,9 +411,22 @@ input,select,textarea{box-sizing:border-box}
               <p style="margin: 0 0 4px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0E7490">Organic revenue performance</p>
               <h3 class="h" style="margin: 0; font-size: 22px; font-weight: 800">US Diesel Parts</h3>
             </div>
-            <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: auto">
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #15803D">+933%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">Growth in organic revenue</p></div>
-              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; text-align: center"><p class="h" style="margin: 0; font-size: 34px; font-weight: 800; color: #0E7490">+100%</p><p style="margin: 4px 0 0; font-size: 13px; font-weight: 500; color: #475569">Organic conversion rate</p></div>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: auto">
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #15803D">+933%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">Growth in organic revenue</p></div>
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #0E7490">+100%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">Organic conversion rate</p></div>
+            </div>
+          </div>
+        </article>
+        <article style="border: 1px solid #E2E8F0; border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; background: #FFFFFF; box-shadow: 0 10px 30px rgba(15,23,42,0.06)">
+          <div style="height: 150px; background: #F8FAFC; border-bottom: 1px solid #E2E8F0; display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box"><img loading="lazy" src="/assets/shopify/legendary.webp" alt="Legendary Auto Interiors" style="max-height: 84px; max-width: 220px; width: auto; object-fit: contain"></div>
+          <div style="padding: 24px; display: flex; flex-direction: column; gap: 16px; flex: 1">
+            <div>
+              <p style="margin: 0 0 4px; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0E7490">Quarterly performance growth</p>
+              <h3 class="h" style="margin: 0; font-size: 22px; font-weight: 800">Legendary Auto Interiors</h3>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: auto">
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #15803D">+184%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">QoQ organic revenue growth</p></div>
+              <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 12px 14px; display: flex; align-items: center; gap: 12px"><p class="h" style="margin: 0; flex: 0 0 auto; min-width: 92px; font-size: 26px; font-weight: 800; color: #0E7490">+42%</p><p style="margin: 0; font-size: 13px; line-height: 1.35; font-weight: 500; color: #475569">QoQ conversion rate growth</p></div>
             </div>
           </div>
         </article>
