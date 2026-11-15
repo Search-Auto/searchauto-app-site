@@ -60,6 +60,18 @@ details[open] .plus{transform:rotate(45deg)}
 .plus{transition:transform .2s}
 input,select,textarea{box-sizing:border-box}
 .cmp{grid-template-columns:1.1fr 1fr 1fr}
+@media (max-width:700px){
+  .cmp-head{display:none !important}
+  .cmp:not(.cmp-head){display:block !important;padding:18px 20px !important;font-size:14px !important}
+  .cmp:not(.cmp-head)>div{padding:10px 14px !important}
+  .cmp:not(.cmp-head)>div:nth-child(1){padding:0 0 10px !important;font-size:16px !important;font-weight:800 !important;color:#0F172A}
+  .cmp:not(.cmp-head)>div:nth-child(2){background:#F8FAFC;border:1px solid #E2E8F0;border-bottom:0;border-radius:10px 10px 0 0}
+  .cmp:not(.cmp-head)>div:nth-child(3){border:1px solid #A5F3FC;border-radius:0 0 10px 10px}
+  .cmp:not(.cmp-head)>div:nth-child(2)::before,.cmp:not(.cmp-head)>div:nth-child(3)::before{display:block;margin-bottom:2px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+  .cmp:not(.cmp-head)>div:nth-child(2)::before{content:"Turnkey parts platform";color:#94A3B8}
+  .cmp:not(.cmp-head)>div:nth-child(3)::before{content:"Shopify + Search Auto";color:#0E7490}
+}
+
 .results-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:1100px){.results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.results-grid{grid-template-columns:1fr}}
@@ -241,7 +253,7 @@ input,select,textarea{box-sizing:border-box}
           <p class="h" style="margin: 0; font-size: 18px; font-weight: 800; color: #0F172A">What it really costs to own</p>
           <p style="margin: 4px 0 0; font-size: 14px; color: #475569">The launch price is the small number. Every change after launch is where turnkey platforms get expensive.</p>
         </div>
-        <div class="cmp" style="display: grid; background: #0F172A; color: #FFFFFF; font-size: 14px; font-weight: 700">
+        <div class="cmp cmp-head" style="display: grid; background: #0F172A; color: #FFFFFF; font-size: 14px; font-weight: 700">
           <div style="padding: 16px 20px"></div>
           <div style="padding: 16px; color: #94A3B8">Turnkey parts platform</div>
           <div style="padding: 16px; background: #0E7490">Shopify + Search Auto</div>
