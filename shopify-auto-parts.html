@@ -59,17 +59,17 @@ summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:n
 details[open] .plus{transform:rotate(45deg)}
 .plus{transition:transform .2s}
 input,select,textarea{box-sizing:border-box}
-.cmp{grid-template-columns:1.1fr 1fr 1fr}
+.cmp{grid-template-columns:minmax(180px,0.75fr) 1.15fr 1fr}
 @media (max-width:700px){
   .cmp-head{display:none !important}
   .cmp:not(.cmp-head){display:block !important;padding:18px 20px !important;font-size:14px !important}
   .cmp:not(.cmp-head)>div{padding:10px 14px !important}
   .cmp:not(.cmp-head)>div:nth-child(1){padding:0 0 10px !important;font-size:16px !important;font-weight:800 !important;color:#0F172A}
-  .cmp:not(.cmp-head)>div:nth-child(2){background:#F8FAFC;border:1px solid #E2E8F0;border-bottom:0;border-radius:10px 10px 0 0}
-  .cmp:not(.cmp-head)>div:nth-child(3){border:1px solid #A5F3FC;border-radius:0 0 10px 10px}
+  .cmp:not(.cmp-head)>div:nth-child(2){border:1px solid #A5F3FC;border-bottom:0;border-radius:10px 10px 0 0}
+  .cmp:not(.cmp-head)>div:nth-child(3){background:#F8FAFC;border:1px solid #E2E8F0;border-radius:0 0 10px 10px}
   .cmp:not(.cmp-head)>div:nth-child(2)::before,.cmp:not(.cmp-head)>div:nth-child(3)::before{display:block;margin-bottom:2px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-  .cmp:not(.cmp-head)>div:nth-child(2)::before{content:"Turnkey parts platform";color:#94A3B8}
-  .cmp:not(.cmp-head)>div:nth-child(3)::before{content:"Shopify + Search Auto";color:#0E7490}
+  .cmp:not(.cmp-head)>div:nth-child(2)::before{content:"Shopify + Search Auto";color:#0E7490}
+  .cmp:not(.cmp-head)>div:nth-child(3)::before{content:"Turnkey parts platform";color:#94A3B8}
 }
 
 .results-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -197,13 +197,11 @@ input,select,textarea{box-sizing:border-box}
 
   <!-- ============ WHY (Option 1) ============ -->
   <section style="background: #FFFFFF">
-    <div style="max-width: 1240px; margin: 0 auto; padding: 112px clamp(20px, 4vw, 48px); display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
-      <div style="flex: 1 1 400px; display: flex; flex-direction: column; gap: 22px">
+    <div style="max-width: 1240px; margin: 0 auto; padding: 112px clamp(20px, 4vw, 48px)">
+      <div style="display: flex; flex-wrap: wrap; gap: 48px 64px; align-items: flex-start"><div style="flex: 1 1 340px; display: flex; flex-direction: column; gap: 22px">
         <p style="margin: 0; font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #0E7490">Why Search Auto</p>
         <h2 class="h" style="margin: 0; font-size: clamp(34px, 4vw, 48px); line-height: 1.05; font-weight: 800; letter-spacing: -0.025em">Why Automotive Retailers Choose Search Auto</h2>
-        <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #475569">Selling parts isn't like selling t-shirts. You've got fitment, interchanges, core charges, kits, and catalogs with tens of thousands of SKUs. Turnkey parts platforms handle that but box you in. Plain Shopify gives you room to grow but doesn't speak automotive. We give you both.</p>
-
-        <div style="display: flex; flex-direction: column; gap: 18px; padding-top: 8px">
+        <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #475569">Selling parts isn't like selling t-shirts. You've got fitment, interchanges, core charges, kits, and catalogs with tens of thousands of SKUs. Turnkey parts platforms handle that but box you in. Plain Shopify gives you room to grow but doesn't speak automotive. We give you both.</p></div><div style="flex: 1.7 1 520px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 28px 32px; padding-top: 8px">
           <div style="display: flex; gap: 16px; align-items: flex-start">
             <span style="flex: 0 0 44px; height: 44px; border-radius: 10px; background: #ECFEFF; color: #0E7490; display: flex; align-items: center; justify-content: center">
               <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h11l-2 4 2 4H5"></path></svg>
@@ -233,71 +231,23 @@ input,select,textarea{box-sizing:border-box}
               <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 7.5-2"></path></svg>
             </span>
             <div><p style="margin: 0 0 4px; font-weight: 700; font-size: 17px">No contracts</p><p style="margin: 0; font-size: 15px; line-height: 1.55; color: #475569">We don't lock you in. Your data, theme, and apps are yours, and good Shopify developers aren't hard to find. We'd rather earn it every month, and no client has left us by choice in over 4 years.</p></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Comparison card -->
-      <div style="flex: 1.35 1 560px; border: 1px solid #E2E8F0; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(15,23,42,0.08)">
+          </div></div></div> <!-- Comparison card -->
+      <div style="margin-top: 64px; border: 1px solid #E2E8F0; border-radius: 16px; overflow: hidden; box-shadow: 0 20px 50px rgba(15,23,42,0.08)">
         <div style="padding: 18px 20px; border-bottom: 1px solid #E2E8F0">
           <p class="h" style="margin: 0; font-size: 18px; font-weight: 800; color: #0F172A">What it really costs to own</p>
           <p style="margin: 4px 0 0; font-size: 14px; color: #475569">The launch price is the small number. Every change after launch is where turnkey platforms get expensive.</p>
         </div>
-        <div class="cmp cmp-head" style="display: grid; background: #0F172A; color: #FFFFFF; font-size: 14px; font-weight: 700">
-          <div style="padding: 16px 20px"></div>
-          <div style="padding: 16px; color: #94A3B8">Turnkey parts platform</div>
-          <div style="padding: 16px; background: #0E7490">Shopify + Search Auto</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Who can work on your store</div>
-          <div style="padding: 14px 16px; color: #475569">Only the platform's in-house team</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Thousands of Shopify agencies and freelancers</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Cost of future changes</div>
-          <div style="padding: 14px 16px; color: #475569">One vendor's time-and-materials rate. No competing quotes.</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Open market. Many features are an app, not a custom build.</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">How pricing grows</div>
-          <div style="padding: 14px 16px; color: #475569">Plans tiered by your revenue. Core charges, B2B, and API access unlock at higher tiers.</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Published plans from $39/mo. Plus from $2,300/mo.</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Adding a new feature</div>
-          <div style="padding: 14px 16px; color: #475569">Scope a custom build, then wait in the vendor's dev queue</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Install an app. We test it on a free dev store first, and you can uninstall anytime.</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Integrations</div>
-          <div style="padding: 14px 16px; color: #475569">The vendor's existing partner list, or another custom project</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Pre-built connectors for ERPs, 3PLs, and marketplaces, plus 13,000+ apps</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">API access</div>
-          <div style="padding: 14px 16px; color: #475569">Higher tiers only</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Full API on every plan</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Checkout</div>
-          <div style="padding: 14px 16px; color: #475569">Standard gateway checkout</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Shopify Checkout + Shop Pay, with 250M+ saved shoppers</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Support</div>
-          <div style="padding: 14px 16px; color: #475569">Live support during business hours</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Shopify support 24/7, plus your agency</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;">
-          <div style="padding: 14px 20px; font-weight: 600">Fitment search</div>
-          <div style="padding: 14px 16px; color: #475569">Built in</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Built in with our fitment app and My Garage</div>
-        </div>
-        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45;">
-          <div style="padding: 14px 20px; font-weight: 600">If you outgrow it or want out</div>
-          <div style="padding: 14px 16px; color: #475569">Rebuild on a new platform</div>
-          <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Upgrade to Plus or headless, or switch agencies and keep your store</div>
-        </div>
+        <div class="cmp cmp-head" style="display: grid; background: #0F172A; color: #FFFFFF; font-size: 14px; font-weight: 700"> <div style="padding: 16px 20px"></div> <div style="padding: 16px; background: #0E7490">Shopify + Search Auto</div> <div style="padding: 16px; color: #94A3B8">Turnkey parts platform</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Who can work on your store</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Thousands of Shopify agencies and freelancers</div> <div style="padding: 14px 16px; color: #475569">Only the platform's in-house team</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Cost of future changes</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Open market. Many features are an app, not a custom build.</div> <div style="padding: 14px 16px; color: #475569">One vendor's time-and-materials rate. No competing quotes.</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">How pricing grows</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Published plans from $39/mo. Plus from $2,300/mo.</div> <div style="padding: 14px 16px; color: #475569">Plans tiered by your revenue. Core charges, B2B, and API access unlock at higher tiers.</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Adding a new feature</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Install an app. We test it on a free dev store first, and you can uninstall anytime.</div> <div style="padding: 14px 16px; color: #475569">Scope a custom build, then wait in the vendor's dev queue</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Integrations</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Pre-built connectors for ERPs, 3PLs, and marketplaces, plus 13,000+ apps</div> <div style="padding: 14px 16px; color: #475569">The vendor's existing partner list, or another custom project</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">API access</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Full API on every plan</div> <div style="padding: 14px 16px; color: #475569">Higher tiers only</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Checkout</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Shopify Checkout + Shop Pay, with 250M+ saved shoppers</div> <div style="padding: 14px 16px; color: #475569">Standard gateway checkout</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Support</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Shopify support 24/7, plus your agency</div> <div style="padding: 14px 16px; color: #475569">Live support during business hours</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45; border-bottom: 1px solid #F1F5F9;"> <div style="padding: 14px 20px; font-weight: 600">Fitment search</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Built in with our fitment app and My Garage</div> <div style="padding: 14px 16px; color: #475569">Built in</div> </div>
+        <div class="cmp" style="display: grid; font-size: 14px; line-height: 1.45;"> <div style="padding: 14px 20px; font-weight: 600">If you outgrow it or want out</div> <div style="padding: 14px 16px; font-weight: 600; background: #ECFEFF">Upgrade to Plus or headless, or switch agencies and keep your store</div> <div style="padding: 14px 16px; color: #475569">Rebuild on a new platform</div> </div>
         <p style="margin: 0; padding: 12px 20px; border-top: 1px solid #E2E8F0; background: #F8FAFC; font-size: 12px; line-height: 1.5; color: #64748B">Turnkey column based on a leading automotive platform's published plans. Shopify pricing and figures from shopify.com, Nov 2026.</p>
       </div>
     </div>
